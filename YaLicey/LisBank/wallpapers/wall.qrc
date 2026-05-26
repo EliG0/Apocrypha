@@ -1,0 +1,49 @@
+<RCC>
+  <qresource prefix="logo">
+    <file>play-dynamic-premium.png</file>
+    <file>plus-dynamic-premium.png</file>
+    <file>thumb-up-dynamic-color.png</file>
+    <file>lisa.png</file>
+    <file>money-dynamic-color.png</file>
+    <file>key-dynamic-premium.png</file>
+    <file>yuan-dynamic-color.png</file>
+    <file>boy-dynamic-color.png</file>
+    <file>girl-dynamic-color.png</file>
+    <file>dollar-dynamic-color.png</file>
+    <file>euro-dynamic-color.png</file>
+    <file>pound-dynamic-color.png</file>
+    <file>calculator-dynamic-premium.png</file>
+    <file>card-dynamic-premium.png</file>
+    <file>crown-dynamic-premium.png</file>
+    <file>daideneg.png</file>
+    <file>locker-dynamic-premium.png</file>
+    <file>pencil-dynamic-premium.png</file>
+    <file>wallet.png</file>
+    <file>bug.png</file>
+    <file>bg.png</file>
+    <file>icon.png</file>
+    <file>logofox.png</file>
+  </qresource>
+  <qresource prefix="wallpaper">
+    <file>1.png</file>
+    <file>2.png</file>
+    <file>3.png</file>
+    <file>4.png</file>
+    <file>5.png</file>
+    <file>6.png</file>
+    <file>7.png</file>
+    <file>8.png</file>
+    <file>9.png</file>
+    <file>10.png</file>
+    <file>11.png</file>
+    <file>12.png</file>
+    <file>13.png</file>
+    <file>14.png</file>
+    <file>15.png</file>
+    <file>16.png</file>
+    <file>17.png</file>
+    <file>18.png</file>
+    <file>19.png</file>
+    <file>20.png</file>
+  </qresource>
+</RCC>
