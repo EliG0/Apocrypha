@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>446</width>
+    <height>239</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Успешный перевод</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QFrame" name="sucperevod">
+   <property name="geometry">
+    <rect>
+     <x>5</x>
+     <y>0</y>
+     <width>441</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(255, 255, 255, 30); 
+border: 2px solid rgba(255,255,255,40);
+border-radius: 7px; 
+font-family: Neo Sans Pro;</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QPushButton" name="countbtn">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>195</y>
+      <width>436</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(255, 255, 255, 30); 
+border: 1px solid rgba(255,255,255,40);
+border-radius: 7px;
+font-size: 24pt;
+font: Medium;
+background-color: rgba(255, 255, 255, 30); 
+border: 1px solid rgba(0,0,0,40);
+border-radius: 7px;</string>
+    </property>
+    <property name="text">
+     <string>ОК</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_5">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>50</y>
+      <width>436</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-size: 11pt;
+background-color: none;
+border: none;
+font-family: Vag World;
+background-color: rgba(255, 255, 255, 30); 
+border: 1px solid rgba(0,0,0,40);
+border-radius: 7px;</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_16">
+     <property name="geometry">
+      <rect>
+       <x>5</x>
+       <y>5</y>
+       <width>146</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-size: 11pt;
+background-color: none;
+border: none;
+font-family: Vag World;</string>
+     </property>
+     <property name="text">
+      <string>Кому:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="dkomy">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>5</y>
+       <width>291</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::RightToLeft</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-size: 11pt;
+background-color: none;
+border: none;
+font-family: Vag World;</string>
+     </property>
+     <property name="text">
+      <string>кому-то</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="dskolko">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>50</y>
+       <width>291</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::RightToLeft</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-size: 11pt;
+background-color: none;
+border: none;
+font-family: Vag World;</string>
+     </property>
+     <property name="text">
+      <string>сколько-то</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_21">
+     <property name="geometry">
+      <rect>
+       <x>5</x>
+       <y>50</y>
+       <width>146</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-size: 11pt;
+background-color: none;
+border: none;
+font-family: Vag World;</string>
+     </property>
+     <property name="text">
+      <string>Сколько</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="dostalos">
+     <property name="geometry">
+      <rect>
+       <x>135</x>
+       <y>95</y>
+       <width>296</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::RightToLeft</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-size: 11pt;
+background-color: none;
+border: none;
+font-family: Vag World;</string>
+     </property>
+     <property name="text">
+      <string>столько-то</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_23">
+     <property name="geometry">
+      <rect>
+       <x>5</x>
+       <y>95</y>
+       <width>146</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-size: 11pt;
+background-color: none;
+border: none;
+font-family: Vag World;</string>
+     </property>
+     <property name="text">
+      <string>Оставшийся счёт</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="suc">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>5</y>
+      <width>436</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(255, 255, 255, 30); 
+border: 1px solid rgba(255,255,255,40);
+border-radius: 7px;
+font-size: 20pt;
+font-family: Neo Sans Pro;
+font: Medium;
+background-color: rgba(255, 255, 255, 30); 
+border: 1px solid rgba(0,0,0,40);
+border-radius: 7px;</string>
+    </property>
+    <property name="text">
+     <string>Успешно!</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="wallpapers/wall.qrc"/>
+ </resources>
+ <connections/>
+</ui>

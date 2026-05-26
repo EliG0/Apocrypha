@@ -1,0 +1,2004 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>875</width>
+    <height>409</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>875</width>
+    <height>409</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>875</width>
+    <height>409</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>FOXBANK</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <selectedon>:/logo/icon.png</selectedon>
+   </iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);
+font-family: Neo Sans Pro;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">border-color: rgb(0, 0, 0);</string>
+   </property>
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-20</y>
+      <width>876</width>
+      <height>361</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>450</height>
+     </size>
+    </property>
+    <property name="sizeIncrement">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="toolTip">
+     <string notr="true"/>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family: Neo Sans Pro;</string>
+    </property>
+    <property name="tabShape">
+     <enum>QTabWidget::Triangular</enum>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <property name="elideMode">
+     <enum>Qt::ElideNone</enum>
+    </property>
+    <property name="usesScrollButtons">
+     <bool>false</bool>
+    </property>
+    <property name="documentMode">
+     <bool>true</bool>
+    </property>
+    <property name="tabsClosable">
+     <bool>false</bool>
+    </property>
+    <widget class="QWidget" name="tab_main">
+     <property name="styleSheet">
+      <string notr="true">border-color: rgba(255, 255, 255, 0);
+background-color: rgba(255, 255, 255, 0);</string>
+     </property>
+     <attribute name="title">
+      <string>Главная</string>
+     </attribute>
+     <widget class="QFrame" name="koshelek">
+      <property name="geometry">
+       <rect>
+        <x>-1</x>
+        <y>10</y>
+        <width>261</width>
+        <height>106</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(255, 255, 255, 30); 
+border: 1px solid rgba(0,0,0,40);
+border-radius: 7px;</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>261</width>
+         <height>40</height>
+        </rect>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font-size: 20pt;</string>
+       </property>
+       <property name="text">
+        <string>Кошелёк</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_4">
+       <property name="geometry">
+        <rect>
+         <x>-15</x>
+         <y>40</y>
+         <width>71</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>900</width>
+         <height>900</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);
+border-color: rgba(255, 255, 255, 0);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="wallpapers/wall.qrc">:/logo/card-dynamic-premium.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="chet">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>50</y>
+         <width>141</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font-size: 18pt;
+font-family: Neo Sans Pro;
+
+background-color: none;
+border: none;</string>
+       </property>
+       <property name="text">
+        <string>0$</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignJustify|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="cardvisa">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>80</y>
+         <width>146</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);
+border-color: rgba(255, 255, 255, 0);
+color: rgba(100, 100, 100);
+font-size: 12pt;
+font-family: Neo Sans Pro;
+</string>
+       </property>
+       <property name="text">
+        <string>Visa Classik ••0000</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="daideneg">
+       <property name="geometry">
+        <rect>
+         <x>204</x>
+         <y>45</y>
+         <width>56</width>
+         <height>55</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="wallpapers/wall.qrc">
+         <normaloff>:/logo/daideneg.png</normaloff>:/logo/daideneg.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>50</width>
+         <height>50</height>
+        </size>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QFrame" name="valuta">
+      <property name="geometry">
+       <rect>
+        <x>-1</x>
+        <y>120</y>
+        <width>261</width>
+        <height>221</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font-size: 20pt;
+font-family: Neo Sans Pro;
+background-color: rgba(255, 255, 255, 30); 
+border: 1px solid rgba(0,0,0,40);
+border-radius: 7px;</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QLabel" name="label_2">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>-1</y>
+         <width>261</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string>Валюта</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_9">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>65</y>
+         <width>77</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font-size: 20pt;
+font-family: Neo Sans Pro;
+border: none;</string>
+       </property>
+       <property name="text">
+        <string>USD</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="usdbuy">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>65</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+font-size: 15pt;
+font-family: Neo Sans Pro;
+border: none;</string>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignJustify|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_10">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>90</y>
+         <width>170</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);
+border-color: rgba(255, 255, 255, 0);
+font-size: 12pt;
+color: rgba(100, 100, 100);</string>
+       </property>
+       <property name="text">
+        <string>Доллар США</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignJustify|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="usdsell">
+       <property name="geometry">
+        <rect>
+         <x>195</x>
+         <y>65</y>
+         <width>61</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+font-size: 15pt;
+font-family: Neo Sans Pro;
+border: none;</string>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignJustify|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_39">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>115</y>
+         <width>81</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>800</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+font-size: 20pt;
+font-family: Neo Sans Pro;
+border: none;</string>
+       </property>
+       <property name="text">
+        <string>EUR</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="eurbuy">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>115</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+font-size: 15pt;
+font-family: Neo Sans Pro;
+border: none;</string>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignJustify|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="eursell">
+       <property name="geometry">
+        <rect>
+         <x>195</x>
+         <y>115</y>
+         <width>61</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+font-size: 15pt;
+font-family: Neo Sans Pro;
+border: none;</string>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignJustify|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_40">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>140</y>
+         <width>70</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>70</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);
+border-color: rgba(255, 255, 255, 0);
+color: rgba(180, 180, 180);
+font-size: 12pt;
+font-family: Neo Sans Pro;
+color: rgba(100, 100, 100);</string>
+       </property>
+       <property name="text">
+        <string>Евро</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignJustify|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_19">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>165</y>
+         <width>77</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+font-size: 20pt;
+font-family: Neo Sans Pro;
+border: none;</string>
+       </property>
+       <property name="text">
+        <string>CNY</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_20">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>195</y>
+         <width>131</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>999</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);
+border-color: rgba(255, 255, 255, 0);
+color: rgba(180, 180, 180);
+font-size: 12pt;
+font-family: Neo Sans Pro;
+color: rgba(100, 100, 100);</string>
+       </property>
+       <property name="text">
+        <string>Китайский юань</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignJustify|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="cnysell">
+       <property name="geometry">
+        <rect>
+         <x>195</x>
+         <y>165</y>
+         <width>61</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+font-size: 15pt;
+font-family: Neo Sans Pro;
+border: none;</string>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignJustify|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="cnybuy">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>165</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+font-size: 15pt;
+font-family: Neo Sans Pro;
+border: none;</string>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignJustify|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_11">
+       <property name="geometry">
+        <rect>
+         <x>5</x>
+         <y>40</y>
+         <width>111</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);
+border-color: rgba(255, 255, 255, 0);
+font-size: 12pt;
+color: rgba(100, 100, 100);</string>
+       </property>
+       <property name="text">
+        <string>Валюта</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_12">
+       <property name="geometry">
+        <rect>
+         <x>115</x>
+         <y>40</y>
+         <width>71</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);
+border-color: rgba(255, 255, 255, 0);
+font-size: 12pt;
+color: rgba(100, 100, 100);</string>
+       </property>
+       <property name="text">
+        <string>Купить</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_13">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>40</y>
+         <width>71</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);
+border-color: rgba(255, 255, 255, 0);
+font-size: 12pt;
+color: rgba(100, 100, 100);</string>
+       </property>
+       <property name="text">
+        <string>Продать</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_5">
+       <property name="geometry">
+        <rect>
+         <x>-15</x>
+         <y>60</y>
+         <width>56</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>900</width>
+         <height>900</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);
+border-color: rgba(255, 255, 255, 0);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="wallpapers/wall.qrc">:/logo/dollar-dynamic-color.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_8">
+       <property name="geometry">
+        <rect>
+         <x>-15</x>
+         <y>110</y>
+         <width>56</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>900</width>
+         <height>900</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);
+border-color: rgba(255, 255, 255, 0);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="wallpapers/wall.qrc">:/logo/euro-dynamic-color.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_17">
+       <property name="geometry">
+        <rect>
+         <x>-15</x>
+         <y>160</y>
+         <width>56</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>900</width>
+         <height>900</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);
+border-color: rgba(255, 255, 255, 0);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="wallpapers/wall.qrc">:/logo/yuan-dynamic-color.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QTableWidget" name="tableWidget">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>10</y>
+        <width>600</width>
+        <height>291</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(255, 255, 255); 
+border: 1px solid rgba(0,0,0,40);
+border-radius: 7px;
+font: Light</string>
+      </property>
+      <property name="horizontalScrollBarPolicy">
+       <enum>Qt::ScrollBarAsNeeded</enum>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QAbstractScrollArea::AdjustToContents</enum>
+      </property>
+      <property name="gridStyle">
+       <enum>Qt::DotLine</enum>
+      </property>
+      <attribute name="horizontalHeaderCascadingSectionResizes">
+       <bool>false</bool>
+      </attribute>
+      <attribute name="horizontalHeaderDefaultSectionSize">
+       <number>100</number>
+      </attribute>
+      <attribute name="horizontalHeaderHighlightSections">
+       <bool>false</bool>
+      </attribute>
+      <attribute name="horizontalHeaderMinimumSectionSize">
+       <number>5</number>
+      </attribute>
+      <attribute name="verticalHeaderVisible">
+       <bool>false</bool>
+      </attribute>
+      <attribute name="verticalHeaderMinimumSectionSize">
+       <number>5</number>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="add_hist">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>305</y>
+        <width>601</width>
+        <height>36</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font-size: 17pt;
+font-family: Neo Sans Pro;
+background-color: rgba(255, 255, 255, 30); 
+border: 1px solid rgba(0,0,0,40);
+border-radius: 7px;</string>
+      </property>
+      <property name="text">
+       <string>ДОБАВИТЬ</string>
+      </property>
+      <property name="icon">
+       <iconset resource="wallpapers/wall.qrc">
+        <normaloff>:/logo/plus-dynamic-premium.png</normaloff>:/logo/plus-dynamic-premium.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>100</width>
+        <height>100</height>
+       </size>
+      </property>
+     </widget>
+     <zorder>koshelek</zorder>
+     <zorder>valuta</zorder>
+     <zorder>add_hist</zorder>
+     <zorder>tableWidget</zorder>
+    </widget>
+    <widget class="QWidget" name="tab_anal">
+     <attribute name="title">
+      <string>Page</string>
+     </attribute>
+     <widget class="PlotWidget" name="per_view">
+      <property name="geometry">
+       <rect>
+        <x>5</x>
+        <y>50</y>
+        <width>601</width>
+        <height>291</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font-size: 16pt;
+background-color: rgba(255, 255, 255, 30); 
+border: 1px solid rgba(0,0,0,40);
+border-radius: 7px;</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="din_but">
+      <property name="geometry">
+       <rect>
+        <x>5</x>
+        <y>10</y>
+        <width>150</width>
+        <height>36</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font-size: 16pt;
+background-color: rgba(255, 255, 255, 30); 
+border: 1px solid rgba(0,0,0,40);
+border-radius: 7px;</string>
+      </property>
+      <property name="text">
+       <string>Динамика</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pev_but">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>10</y>
+        <width>150</width>
+        <height>36</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font-size: 16pt;
+background-color: rgba(255, 255, 255, 30); 
+border: 1px solid rgba(0,0,0,40);
+border-radius: 7px;</string>
+      </property>
+      <property name="text">
+       <string>Переводы</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_15">
+      <property name="geometry">
+       <rect>
+        <x>595</x>
+        <y>25</y>
+        <width>221</width>
+        <height>26</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(255, 255, 255, 0);
+border-color: rgba(255, 255, 255, 0);
+font-size: 12pt;
+color: rgba(100, 100, 100);</string>
+      </property>
+      <property name="text">
+       <string>Данные за числа</string>
+      </property>
+     </widget>
+     <widget class="QTableWidget" name="max_view">
+      <property name="geometry">
+       <rect>
+        <x>610</x>
+        <y>50</y>
+        <width>256</width>
+        <height>291</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font-size: 9pt;
+background-color: rgba(255, 255, 255, 30); 
+border: 1px solid rgba(0,0,0,40);
+border-radius: 7px;</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="janvar">
+      <property name="geometry">
+       <rect>
+        <x>728</x>
+        <y>25</y>
+        <width>136</width>
+        <height>26</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font-size: 16pt;
+border: 1px solid rgba(0,0,0,40);
+border-radius: 7px;
+font-size: 12pt;
+color: rgba(100, 100, 100);</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_perevod">
+     <attribute name="title">
+      <string>Платежи и переводы</string>
+     </attribute>
+     <widget class="QFrame" name="SBP">
+      <property name="geometry">
+       <rect>
+        <x>5</x>
+        <y>70</y>
+        <width>286</width>
+        <height>216</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius: 7px; 
+border: 1px solid rgba(0,0,0,40);
+border-radius: 7px;</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QLabel" name="sbp_error">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>140</y>
+         <width>271</width>
+         <height>26</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: red;
+font-size: 11pt;
+background-color: none;
+border: none;
+font-family: Neo Sans Pro;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="sbp_contbtn">
+       <property name="geometry">
+        <rect>
+         <x>5</x>
+         <y>170</y>
+         <width>276</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font-size: 14pt;
+font-family: Neo Sans Pro Bold;
+background-color: rgba(255, 255, 255, 30); 
+border: 1px solid rgba(0,0,0,40);
+border-radius: 7px;
+</string>
+       </property>
+       <property name="text">
+        <string>ПЕРЕВЕСТИ</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="per_summa">
+       <property name="geometry">
+        <rect>
+         <x>5</x>
+         <y>95</y>
+         <width>276</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font-family: Neo Sans Pro;
+font-size: 17px</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="echoMode">
+        <enum>QLineEdit::Normal</enum>
+       </property>
+      </widget>
+      <widget class="QLabel" name="per_summalab">
+       <property name="geometry">
+        <rect>
+         <x>5</x>
+         <y>60</y>
+         <width>281</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font-size: 11pt;
+background-color: none;
+border: none;
+font-family: Neo Sans Pro;</string>
+       </property>
+       <property name="text">
+        <string>Сумма перевода</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="per_numtel">
+       <property name="geometry">
+        <rect>
+         <x>5</x>
+         <y>25</y>
+         <width>276</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font-family: Neo Sans Pro;
+font-size: 17px</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="echoMode">
+        <enum>QLineEdit::Normal</enum>
+       </property>
+      </widget>
+      <widget class="QLabel" name="per_numtelab">
+       <property name="geometry">
+        <rect>
+         <x>5</x>
+         <y>-5</y>
+         <width>271</width>
+         <height>36</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font-size: 11pt;
+background-color: none;
+border: none;
+font-family: Neo Sans Pro;</string>
+       </property>
+       <property name="text">
+        <string>Номер телефона:</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="blago">
+       <property name="geometry">
+        <rect>
+         <x>5</x>
+         <y>215</y>
+         <width>276</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font-size: 11pt;
+border: 1px solid rgba(0,0,0,40);
+border-radius: 7px;
+font: Bold;</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>Вера</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Альцрус</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Подари жизнь</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Дом с маяком</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Новый дом</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Детский мир</string>
+        </property>
+       </item>
+      </widget>
+     </widget>
+     <widget class="QComboBox" name="perevodkomy">
+      <property name="geometry">
+       <rect>
+        <x>5</x>
+        <y>30</y>
+        <width>286</width>
+        <height>36</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font-size: 11pt;
+border: 1px solid rgba(0,0,0,40);
+border-radius: 7px;
+font: Bold;</string>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>СБП</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Мобильная связь</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Транспортная карта</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Благотворительность</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="label_14">
+      <property name="geometry">
+       <rect>
+        <x>5</x>
+        <y>0</y>
+        <width>271</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font-size: 11pt;
+background-color: none;
+border: none;</string>
+      </property>
+      <property name="text">
+       <string>Кому:</string>
+      </property>
+     </widget>
+     <widget class="QTableWidget" name="perevod_wid">
+      <property name="geometry">
+       <rect>
+        <x>305</x>
+        <y>30</y>
+        <width>561</width>
+        <height>311</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(255, 255, 255, 30); 
+border: 1px solid rgba(0,0,0,40);
+border-radius: 7px;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_18">
+      <property name="geometry">
+       <rect>
+        <x>305</x>
+        <y>0</y>
+        <width>271</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font-size: 11pt;
+background-color: none;
+border: none;</string>
+      </property>
+      <property name="text">
+       <string>Последние переводы:</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_user">
+     <attribute name="title">
+      <string>Page</string>
+     </attribute>
+     <widget class="QFrame" name="frame_123">
+      <property name="geometry">
+       <rect>
+        <x>5</x>
+        <y>10</y>
+        <width>896</width>
+        <height>331</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius: 7px; 
+background-color: rgba(255, 255, 255, 30); 
+border: 1px solid rgba(0,0,0,40);
+font-size: 17px;
+background-color: none;
+font-family: Neo Sans;</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QLabel" name="label_6">
+       <property name="geometry">
+        <rect>
+         <x>5</x>
+         <y>0</y>
+         <width>251</width>
+         <height>40</height>
+        </rect>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font-size: 24pt;
+font-family: Neo Sans Pro;
+border: none;
+background: none;</string>
+       </property>
+       <property name="text">
+        <string>Профиль</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="sexicon">
+       <property name="geometry">
+        <rect>
+         <x>-20</x>
+         <y>40</y>
+         <width>101</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>900</width>
+         <height>900</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);
+border-color: rgba(255, 255, 255, 0);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="wallpapers/wall.qrc">:/logo/boy-dynamic-color.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="prof_name">
+       <property name="geometry">
+        <rect>
+         <x>85</x>
+         <y>65</y>
+         <width>211</width>
+         <height>46</height>
+        </rect>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>999</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);
+border-color: rgba(255, 255, 255, 0);
+font-size: 18pt;
+font-family: Neo Sans Pro;
+</string>
+       </property>
+       <property name="text">
+        <string>ахахах</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignBottom|Qt::AlignJustify</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="cardvisa_3">
+       <property name="geometry">
+        <rect>
+         <x>320</x>
+         <y>75</y>
+         <width>201</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);
+border-color: rgba(255, 255, 255, 0);
+color: rgba(100, 100, 100);
+font-size: 12pt;
+font-family: Neo Sans Pro;
+</string>
+       </property>
+       <property name="text">
+        <string>Телефон</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="telefon_label">
+       <property name="geometry">
+        <rect>
+         <x>320</x>
+         <y>105</y>
+         <width>261</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font-size: 17px;</string>
+       </property>
+       <property name="inputMask">
+        <string>+79999999999</string>
+       </property>
+       <property name="text">
+        <string>+7</string>
+       </property>
+       <property name="echoMode">
+        <enum>QLineEdit::Normal</enum>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="password_label">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>230</y>
+         <width>311</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font-size: 17px;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="echoMode">
+        <enum>QLineEdit::Normal</enum>
+       </property>
+      </widget>
+      <widget class="QLabel" name="cardvisa_5">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>200</y>
+         <width>201</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);
+border-color: rgba(255, 255, 255, 0);
+color: rgba(100, 100, 100);
+font-size: 12pt;
+font-family: Neo Sans Pro;
+</string>
+       </property>
+       <property name="text">
+        <string>Пароль:</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="sec_password_label">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>295</y>
+         <width>311</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font-size: 17px;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="echoMode">
+        <enum>QLineEdit::Normal</enum>
+       </property>
+      </widget>
+      <widget class="QLabel" name="cardvisa_6">
+       <property name="geometry">
+        <rect>
+         <x>5</x>
+         <y>265</y>
+         <width>201</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);
+border-color: rgba(255, 255, 255, 0);
+color: rgba(100, 100, 100);
+font-size: 12pt;
+font-family: Neo Sans Pro;
+</string>
+       </property>
+       <property name="text">
+        <string>Пароль повторно:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="error_label">
+       <property name="geometry">
+        <rect>
+         <x>325</x>
+         <y>265</y>
+         <width>251</width>
+         <height>26</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: red;
+font-size: 11pt;
+background-color: none;
+border: none;
+font-family: Neo Sans Pro;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="smenit">
+       <property name="geometry">
+        <rect>
+         <x>320</x>
+         <y>295</y>
+         <width>261</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+font-size: 15pt;
+font-family: Neo Sans Pro;
+</string>
+       </property>
+       <property name="text">
+        <string>Сменить</string>
+       </property>
+       <property name="icon">
+        <iconset resource="wallpapers/wall.qrc">
+         <normaloff>:/logo/pencil-dynamic-premium.png</normaloff>:/logo/pencil-dynamic-premium.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QLabel" name="cardvisa_7">
+       <property name="geometry">
+        <rect>
+         <x>320</x>
+         <y>10</y>
+         <width>201</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);
+border-color: rgba(255, 255, 255, 0);
+color: rgba(100, 100, 100);
+font-size: 12pt;
+font-family: Neo Sans Pro;
+</string>
+       </property>
+       <property name="text">
+        <string>Имя</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="name_label">
+       <property name="geometry">
+        <rect>
+         <x>320</x>
+         <y>40</y>
+         <width>261</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font-size: 17px;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="echoMode">
+        <enum>QLineEdit::Normal</enum>
+       </property>
+      </widget>
+      <widget class="QLabel" name="cardvisa_12">
+       <property name="geometry">
+        <rect>
+         <x>320</x>
+         <y>140</y>
+         <width>201</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);
+border-color: rgba(255, 255, 255, 0);
+color: rgba(100, 100, 100);
+font-size: 12pt;
+font-family: Neo Sans Pro;
+</string>
+       </property>
+       <property name="text">
+        <string>Платежная система</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="visa_box">
+       <property name="geometry">
+        <rect>
+         <x>320</x>
+         <y>165</y>
+         <width>261</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font-size: 17px;
+background-color: none;
+font-family: Neo Sans;</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>Visa Classic</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>MasterCard</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Мир</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>UnionPay</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QLabel" name="cardvisa_14">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>140</y>
+         <width>256</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);
+border-color: rgba(255, 255, 255, 0);
+color: rgba(100, 100, 100);
+font-size: 12pt;
+font-family: Neo Sans Pro;
+</string>
+       </property>
+       <property name="text">
+        <string>Номер карты</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="cardnum_profil">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>165</y>
+         <width>311</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font-size: 17px;</string>
+       </property>
+       <property name="inputMask">
+        <string>9999999999999999</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="echoMode">
+        <enum>QLineEdit::Normal</enum>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="vihod">
+       <property name="geometry">
+        <rect>
+         <x>605</x>
+         <y>0</y>
+         <width>111</width>
+         <height>331</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+font-size: 15pt;
+font-family: Neo Sans Pro;
+</string>
+       </property>
+       <property name="text">
+        <string>Выход</string>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>50</width>
+         <height>50</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_3">
+       <property name="geometry">
+        <rect>
+         <x>545</x>
+         <y>130</y>
+         <width>210</width>
+         <height>210</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-color: none;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="wallpapers/wall.qrc">:/logo/key-dynamic-premium.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_7">
+       <property name="geometry">
+        <rect>
+         <x>716</x>
+         <y>1</y>
+         <width>156</width>
+         <height>329</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+border-color: none;
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="wallpapers/wall.qrc">:/logo/lisa.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_21">
+       <property name="geometry">
+        <rect>
+         <x>5</x>
+         <y>5</y>
+         <width>601</width>
+         <height>321</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+border-color: none;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="cardvisa_13">
+       <property name="geometry">
+        <rect>
+         <x>320</x>
+         <y>200</y>
+         <width>201</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);
+border-color: rgba(255, 255, 255, 0);
+color: rgba(100, 100, 100);
+font-size: 12pt;
+font-family: Neo Sans Pro;
+</string>
+       </property>
+       <property name="text">
+        <string>Пол</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="sex_box">
+       <property name="geometry">
+        <rect>
+         <x>320</x>
+         <y>230</y>
+         <width>261</width>
+         <height>26</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <item>
+        <property name="text">
+         <string>Мужской</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Не указывать</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Женский</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QLabel" name="horosh">
+       <property name="geometry">
+        <rect>
+         <x>325</x>
+         <y>265</y>
+         <width>251</width>
+         <height>26</height>
+        </rect>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>999</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);
+border-color: rgba(255, 255, 255, 0);
+font-size: 8pt;
+font-family: Neo Sans Pro;
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignBottom|Qt::AlignJustify</set>
+       </property>
+      </widget>
+      <zorder>label_3</zorder>
+      <zorder>label_21</zorder>
+      <zorder>label_6</zorder>
+      <zorder>sexicon</zorder>
+      <zorder>prof_name</zorder>
+      <zorder>cardvisa_3</zorder>
+      <zorder>password_label</zorder>
+      <zorder>cardvisa_5</zorder>
+      <zorder>sec_password_label</zorder>
+      <zorder>cardvisa_6</zorder>
+      <zorder>cardvisa_7</zorder>
+      <zorder>cardvisa_12</zorder>
+      <zorder>cardvisa_14</zorder>
+      <zorder>cardnum_profil</zorder>
+      <zorder>vihod</zorder>
+      <zorder>name_label</zorder>
+      <zorder>telefon_label</zorder>
+      <zorder>smenit</zorder>
+      <zorder>visa_box</zorder>
+      <zorder>error_label</zorder>
+      <zorder>cardvisa_13</zorder>
+      <zorder>sex_box</zorder>
+      <zorder>horosh</zorder>
+      <zorder>label_7</zorder>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>340</y>
+      <width>866</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="homebut">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font-size: 23pt;
+background-color: rgba(255, 255, 255, 30); 
+border: 1px solid rgba(0,0,0,150);
+border-radius: 7px;</string>
+       </property>
+       <property name="text">
+        <string>ГЛАВНАЯ</string>
+       </property>
+       <property name="icon">
+        <iconset resource="wallpapers/wall.qrc">
+         <normaloff>:/logo/wallet.png</normaloff>:/logo/wallet.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>50</width>
+         <height>50</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="perevodbut">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font-size: 23pt;
+background-color: rgba(255, 255, 255, 30); 
+border: 1px solid rgba(0,0,0,60);
+border-radius: 7px;</string>
+       </property>
+       <property name="locale">
+        <locale language="Russian" country="Russia"/>
+       </property>
+       <property name="text">
+        <string>ПЕРЕВОДЫ</string>
+       </property>
+       <property name="icon">
+        <iconset resource="wallpapers/wall.qrc">
+         <normaloff>:/logo/play-dynamic-premium.png</normaloff>:/logo/play-dynamic-premium.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>50</width>
+         <height>50</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="analizbut">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font-size: 23pt;
+background-color: rgba(255, 255, 255, 30); 
+border: 1px solid rgba(0,0,0,60);
+border-radius: 7px;</string>
+       </property>
+       <property name="text">
+        <string>ДИНАМИКА</string>
+       </property>
+       <property name="icon">
+        <iconset resource="wallpapers/wall.qrc">
+         <normaloff>:/logo/calculator-dynamic-premium.png</normaloff>:/logo/calculator-dynamic-premium.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>50</width>
+         <height>50</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="userbut">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font-size: 23pt;
+font-family: Neo Sans Pro;
+background-color: rgba(255, 255, 255, 30); 
+border: 1px solid rgba(0,0,0,60);
+border-radius: 7px;</string>
+       </property>
+       <property name="text">
+        <string>ПРОФИЛЬ</string>
+       </property>
+       <property name="icon">
+        <iconset resource="wallpapers/wall.qrc">
+         <normaloff>:/logo/crown-dynamic-premium.png</normaloff>:/logo/crown-dynamic-premium.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>50</width>
+         <height>50</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>PlotWidget</class>
+   <extends>QGraphicsView</extends>
+   <header>pyqtgraph</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="wallpapers/wall.qrc"/>
+ </resources>
+ <connections/>
+</ui>
