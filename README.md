@@ -16,7 +16,8 @@ ___
 ### 🏛 Экспонаты:
 
 * **YaLicey/LisBank** - жалкая симуляция интерфейса банка на 4 буквы на PyQT. Школьный проект для Яндекс.Лицея
-* [**imagenerate**][2] — Telegram-бот для генерации картинок с помощью с API Kandinsky.
+* [**imagenerate**][2] — Telegram-бот для генерации картинок с помощью с API Kandinsky. Школьный проект для Яндекс.Лицея
+
 ___
 
 [1]: https://elderscrolls.fandom.com/ru/wiki/Апокриф_(Lore) "Апокриф на TES Wiki"
