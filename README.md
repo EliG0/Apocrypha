@@ -1,7 +1,7 @@
 # 📚 Apocrypha
 > *"To understand the present, one must delve into the past." — Хермеус Мора*
 
-Добро пожаловать в [**Апокриф**][1]!
+Добро пожаловать в [**Апокриф**](https://elderscrolls.fandom.com/ru/wiki/Апокриф_(Lore))!
 
 В мою огромную библиотеку, где души смертных листают книги в чёрных переплётах и без названий, а в воздухе, подобно дымке, витают идеи и доводы.
 
@@ -15,10 +15,11 @@ ___
 
 ### 🏛 Экспонаты:
 
-* **YaLicey/LisBank** - жалкая симуляция интерфейса банка на 4 буквы на PyQT. Школьный проект для Яндекс.Лицея
-* [**imagenerate**][2] — Telegram-бот для генерации картинок с помощью с API Kandinsky. Школьный проект для Яндекс.Лицея
+
+* [Xarxes](https://github.com/EliG0/Xarxes) — пародия на Vortex (ModOrganiser) с локальным БД модификаций. Студенческий проект\курсовая по Java для ЛГТУ.
+
+* [**imagenerate**](https://github.com/EliG0/imagenerate) — Telegram-бот для генерации картинок с помощью с API Kandinsky. Школьный проект для Яндекс.Лицея
+
+* **YaLicey/LisBank** — жалкая симуляция интерфейса банка на 4 буквы на PyQT. Школьный проект для Яндекс.Лицея
 
 ___
-
-[1]: https://elderscrolls.fandom.com/ru/wiki/Апокриф_(Lore) "Апокриф на TES Wiki"
-[2]: https://github.com/EliG0/imagenerate 
